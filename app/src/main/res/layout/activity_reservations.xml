@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9dd0ed"
+    tools:context=".Reservations">
+
+    <TextView
+        android:id="@+id/txtObjectTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:text="Rezervacija karte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtIme"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:id="@+id/txtPrezime"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:id="@+id/txtDatum"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText android:id="@+id/txtBrojTelefona"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:id="@+id/btnRezervisi"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="200dp"
+        android:text="Rezervisi"
+        android:background="#3333ff"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/overview_image" />
+
+    <TextView
+        android:id="@+id/lblIme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ime:"
+        android:textSize="20dp"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/lblPrezime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prezime:"
+        android:textSize="20dp"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/lblDatum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datum:"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/lblBrojTelefona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Broj telefona:"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="20dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
